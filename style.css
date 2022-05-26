@@ -40,7 +40,7 @@ ul {
     justify-content: space-between;
 }
 .heading_s{
-    font-family: 'Lato';
+    font-family: 'Lato', sans-serif;;
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
@@ -58,7 +58,7 @@ ul {
 
 }
 .heading_logo{
-    font-family: 'Lato';
+    font-family: 'Lato', sans-serif;;
     font-style: normal;
     font-weight: 900;
     font-size: 48px;
@@ -76,7 +76,7 @@ ul {
 }
 
 .text {
-    font-family: 'Lato';
+    font-family: 'Lato', sans-serif;;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -90,7 +90,7 @@ ul {
 
 .headline-text{
     color: #F16D7F;
-    font-family: 'Lato';
+    font-family: 'Lato', sans-serif;;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
@@ -103,7 +103,7 @@ ul {
 
 .headline-block {
     color: #F16D7F;
-    font-family: 'Lato';
+    font-family: 'Lato', sans-serif;;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
@@ -115,7 +115,7 @@ ul {
 }
 
 .text-block {
-    font-family: 'Lato';
+    font-family: 'Lato', sans-serif;;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -135,6 +135,9 @@ img {
     border: 3px solid transparent;
 }
 .sate-img:hover {
+    border-color:#F16D7F ;
+}
+.block-photo:hover {
     border-color:#F16D7F ;
 }
 .catalog-img:hover {
@@ -157,73 +160,71 @@ img {
     position: relative;
 }
 .sail_head{
-    font-family: 'Lato';
+    font-family: 'Lato', sans-serif;;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
     font-size: 30px;
     line-height: 36px;
     color: #222222;
     text-align: center;
     padding-top: 96px;
+    padding-bottom: 6px;
 }
 .sail{
-    font-family: 'Lato';
+    font-family: 'Lato', sans-serif;;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
     color: #9F9F9F;
     text-align: center;
+    padding-bottom: 48px;
 }
 .title {
-    font-family: 'Lato';
+    font-family: 'Lato', sans-serif;;
     font-style: normal;
     font-weight: 400;
     font-size: 13px;
     line-height: 16px;
     color: #000000;
+    padding-left: 18px;
+    text-transform: uppercase;
 }
 
 .description{
-    font-family: 'Lato';
+    font-family: 'Lato', sans-serif;;
     font-style: normal;
     font-weight: 300;
     font-size: 14px;
     line-height: 17px;
     color: #5D5D5D;
     padding-top: 12px;
+    padding-left: 18px;
 }
 .price{
     padding-top: 18px;
-    font-family: 'Lato';
+    font-family: 'Lato', sans-serif;;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
     color: #F16D7F;
+    padding-left: 18px;
 }
 .catalog_top {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
+    padding: 30px;
+
 }
 
-.products {
-    background-color:#F8F8F8;
-    margin-top: 30px;
-    width: 32%;
-}
-
-.products-photo {
-    background-color: #F7E4E2;
-    text-align: center;
-    height: 424px;
-}
 a {
     text-decoration: none;
 }
 
 .products-link {
-    font-family: 'Lato';
+    font-family: 'Lato', sans-serif;;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -247,7 +248,7 @@ a {
     justify-content: space-between;
 }
 .options-head {
-    font-family: 'Lato';
+    font-family: 'Lato', sans-serif;;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -256,7 +257,7 @@ a {
     padding-top: 28px;
 }
 .options-text {
-    font-family: 'Lato';
+    font-family: 'Lato', sans-serif;;
     font-style: normal;
     font-weight: 300;
     font-size: 14px;
@@ -272,7 +273,7 @@ a {
     text-align: center;
 }
 .feedback {
-    font-family: 'Lato';
+    font-family: 'Lato', sans-serif;;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -286,7 +287,7 @@ a {
 }
 
 .head-footer {
-    font-family: Lato;
+    font-family: 'Lato', sans-serif;;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -295,7 +296,7 @@ a {
     color: #222224;
 }
 .text-footer {
-    font-family: 'Lato';
+    font-family: 'Lato', sans-serif;;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -309,7 +310,7 @@ a {
     background: url(img/footer-back.svg);
 }
 .footer {
-    padding: 86px 0px;
+    padding: 86px 0;
     display: flex;
     justify-content: space-between;
 }
@@ -317,13 +318,10 @@ a {
     display: flex;
     justify-content: space-between;
     background-color: #222222;
-    padding-bottom: 30px;
-    padding-top: 30px;
-    padding-right: 230px;
-    padding-left: 230px;
+    padding: 30px 230px;
 }
 .year {
-    font-family: 'Lato';
+    font-family: 'Lato', sans-serif;;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -341,11 +339,11 @@ a {
     height: 49px;
     width: 256px;
     border: none;
-    border-radius: 20px 0px 0px 20px
+    border-radius: 20px 0 0 20px
 
 }
 .email {
-    font-family: 'Lato';
+    font-family: 'Lato', sans-serif;;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -364,8 +362,8 @@ a {
     width: 100px;
     background: #F16D7F;
     border: none;
-    border-radius: 0px 20px 20px 0px;
-    font-family: Lato;
+    border-radius: 0 20px 20px 0;
+    font-family: 'Lato', sans-serif;;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -404,7 +402,7 @@ a {
 
 }
 .sub-link {
-    font-family: 'Lato';
+    font-family: 'Lato', sans-serif;;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -415,7 +413,7 @@ a {
     padding-left: 55px;
 }
 .sub-section {
-    font-family: 'Lato';
+    font-family: 'Lato', sans-serif;;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -425,7 +423,7 @@ a {
     padding-left: 35px;
 }
 .menu-text{
-    font-family: 'Lato';
+    font-family: 'Lato', sans-serif;;
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -445,4 +443,84 @@ a {
     display: block;
     z-index: 2;
     position: absolute;
-    }
+}
+
+
+.txt-box {
+    padding: 20px;
+}
+.item {
+    position: relative;
+    width: 360px;
+}
+.item:hover {
+    box-shadow: 0 5px 0 rgba(0, 0, 0, 0.14);
+    width: 360px;
+}
+.item-pic {
+    width: 100%;
+}
+.item-pic-women {
+    background-color:#F7E4E2; ;
+}
+.item:hover .item-pic {
+    filter: brightness(30%);
+}
+
+.add-box {
+    display: flex;
+    position: absolute;
+    top: 188px;
+    width: 100%;
+    pointer-events: none;
+    justify-content: center;
+}
+.item-desc {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5D5D5D;
+    padding-bottom: 18px;
+    padding-top: 12px;
+
+}
+.add {
+    display: flex;
+    padding: 8px;
+    align-items: center;
+    border: 1px solid #fff;
+    text-decoration: none;
+    pointer-events: auto;
+}
+.add-desc {
+    font-family:'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+.add:hover {
+    box-shadow: 0 0 10px #FFF;
+}
+.item:hover  .add-box {
+    display: flex;
+}
+
+.item-link {
+    display: block;
+    text-decoration: none;
+    width: 360px;
+}
+
+.item-price {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F16D7F;
+    text-transform: uppercase;
+}
