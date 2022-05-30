@@ -438,7 +438,13 @@ a {
 .menu-link{
     position: relative;
 }
+
 .menu-link:hover .submenu {
+    display: block;
+    z-index: 2;
+    position: absolute;
+}
+.menu-link-catalog:hover .submenu {
     display: block;
     z-index: 2;
     position: absolute;
@@ -721,9 +727,11 @@ a {
 
 .dropdown #menu:checked ~ .-list {
     display: block;
+    text-align: center;
 }
 .dropdown #menuONE:checked ~ .-list {
     display: block;
+    text-align: center;
 }
 
 .dropdown #menuTWO:checked ~ .-list {
@@ -765,3 +773,25 @@ a {
     padding-top: 10px;
     padding-bottom: 10px;
 }
+.catalog-page {
+    display: flex;
+}
+.product-menu-catalog {
+    padding-top: 51px;
+    padding-left: 304px;
+}
+.menu-link-catalog {
+    padding-top: 51px;
+    padding-bottom: 64px;
+    position: relative;
+}
+.menu-text-catalog {
+    font-family: 'Lato',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #EF5B70;
+    padding-top: 27px;
+}
+
