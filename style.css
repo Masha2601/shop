@@ -23,7 +23,7 @@ li {
     padding-right: 25px;
 }
 
-ul {
+.menu-head {
     display: inline-flex;
 }
 .left_menu {
@@ -880,7 +880,45 @@ a {
     line-height: 16px;
     color: #B1B1B1;
     padding-bottom: 39px;
+    width: 359px;
 }
 .form {
     padding-top: 64px;
+}
+.img-reg {
+    padding-left: 20px;
+}
+.head-reg,  .reg-text{
+    font-family: 'Lato',sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    padding-bottom: 22px;
+}
+.special-reg {
+    font-family: 'Lato',sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    padding-bottom: 16px;
+    padding-left: 24px;
+}
+.right-registration {
+    padding-top: 64px;
+    width: 50%;
+}
+
+.block-carousel{
+    display: flex;
+    justify-content: space-between;
+}
+.registration{
+    display: flex;
+}
+ul .reg-block {
+    display: block;
 }
