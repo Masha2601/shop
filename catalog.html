@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Title</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,7 +19,7 @@
                         <a href="index.html"><img src="img/main.svg" alt="main"></a>
                     </nav>
                     <nav class="search_img">
-                        <a href="catalog.html"><img src="img/search.svg" alt="search"></a>
+                        <a href="#"><img src="img/search.svg" alt="search"></a>
                     </nav>
                 </div>
                 <nav class="right_menu">
@@ -47,10 +48,10 @@
                                 <a class="sub-link" href="catalog.html">Bags</a>
                             </div>
                         </li>
-                        <li class="menu-link">
+                        <li class="menu-link1">
                             <a href="registration.html"><img src="img/account.svg" alt="account"></a>
                         </li>
-                        <li class="menu-link">
+                        <li class="menu-link2">
                             <a href="cart.html"><img src="img/basket.svg" alt="basket"></a>
                         </li>
                     </ul>
@@ -74,7 +75,7 @@
     </div>
 </div>
 <div class="catalog-page container">
-    <div class="menu-link-catalog">
+    <nav class="menu-link-catalog">
         <div class="menu-left">
             <p class="filter-link">FILTER
                 <img src="img/Filter.svg" alt="filter">
@@ -89,7 +90,7 @@
                         <a class="sub-link" href="#">Denim</a>
                         <a class="sub-link" href="#">Hoodies & Sweatshirts</a>
                         <a class="sub-link" href="#">Jackets & Coats</a>
-                        <a class="sub-link" href="#">Polos</a>
+                        <a class="sub-link" href="#">Polo</a>
                         <a class="sub-link" href="#">Shirts</a>
                         <a class="sub-link" href="#">Shoes</a>
                         <a class="sub-link" href="#">Sweaters & Knits</a>
@@ -112,6 +113,20 @@
                 <li class="list-cat">
                     <p class="cat-text">TRENDING NOW</p>
                     <img class="prom" src="img/vectorCAT.svg" alt="vector">
+                    <ul class="link-menu">
+                        <li class="checkbox-text">
+                            <label><input type="checkbox"><span class="text-span">Shirts</span></label>
+                        </li>
+                        <li class="checkbox-text">
+                            <label><input type="checkbox"><span class="text-span">Polo</span></label>
+                        </li>
+                        <li class="checkbox-text">
+                            <label><input type="checkbox"><span class="text-span">Shoes</span></label>
+                        </li>
+                        <li class="checkbox-text">
+                            <label><input type="checkbox"><span class="text-span">T-Shirts</span></label>
+                        </li>
+                    </ul>
                 </li>
                 <li class="list-cat">
                     <p class="cat-text">SIZE</p>
@@ -134,10 +149,24 @@
                 <li class="list-cat">
                     <p class="cat-text">PRICE</p>
                     <img class="prom" src="img/vectorCAT.svg" alt="vector">
+                    <ul class="link-menu">
+                        <li class="checkbox-text">
+                            <label><input type="checkbox"><span class="text-span">50-100</span></label>
+                        </li>
+                        <li class="checkbox-text">
+                            <label><input type="checkbox"><span class="text-span">100-200</span></label>
+                        </li>
+                        <li class="checkbox-text">
+                            <label><input type="checkbox"><span class="text-span">200-300</span></label>
+                        </li>
+                        <li class="checkbox-text">
+                            <label><input type="checkbox"><span class="text-span">300-400</span></label>
+                        </li>
+                    </ul>
                 </li>
             </ul>
         </div>
-    </div>
+    </nav>
 </div>
 <section class="item-sec">
     <div class="catalog-item container">
@@ -262,33 +291,33 @@
         </div>
     </div>
 </section>
-<div class="block-pagination">
+<nav class="block-pagination">
     <ul class="pagination">
-        <li class="icons-PG"><a href="#">«</a></li>
-        <li class="PG-li"><a href="#">1</a></li>
-        <li class="PG-li"><a class="active" href="#">2</a></li>
-        <li class="PG-li"><a href="#">3</a></li>
-        <li class="PG-li"><a href="#">4</a></li>
-        <li class="PG-li"><a href="#">5</a></li>
-        <li class="PG-li"><a href="#">6</a></li>
-        <li class="nav-ext"><a href="#">...</a></li>
-        <li class="PG-li"><a href="#">20</a></li>
-        <li class="icons-PG"><a href="#">»</a></li>
+        <li class="icons-PG"><a class="page" href="#">«</a></li>
+        <li class="PG-li"><a class="page" href="#">1</a></li>
+        <li class="PG-li"><a  class="active" href="#">2</a></li>
+        <li class="PG-li"><a class="page" href="#">3</a></li>
+        <li class="PG-li"><a class="page" href="#">4</a></li>
+        <li class="PG-li"><a class="page" href="#">5</a></li>
+        <li class="PG-li"><a class="page" href="#">6</a></li>
+        <li class="nav-ext"><a class="page" href="#">...</a></li>
+        <li class="PG-li"><a class="page" href="#">20</a></li>
+        <li class="icons-PG"><a class="page" href="#">»</a></li>
     </ul>
-</div>
+</nav>
 <footer class="main-footer">
     <div class="wrapper bg-section">
         <div class="footer container">
-            <div class="left-footer">
+            <figure class="left-footer">
                 <img src="img/footer-women.svg" alt="footer">
                 <p class="feedback">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum“</p>
-            </div>
+            </figure>
             <div class="right-footer">
                 <h3 class="head-footer">SUBSCRIBE</h3>
                 <h3 class="text-footer"> FOR OUR NEWLETTER AND PROMOTION </h3>
                 <form class="form-group">
                     <label>
-                        <input class="border-footer" type="email" placeholder="   Enter Your Email">
+                        <input class="border-footer" type="email" maxlength="35" placeholder="   Enter Your Email">
                     </label>
                     <button class="submit" type="submit">Subscribe</button>
                 </form>
@@ -298,10 +327,10 @@
     <div class="wrapper-footer">
         <p class="year">© 2021 Brand All Rights Reserved.</p>
         <nav class="social">
-            <a class="icons" href="https://www.facebook.com/"> <img src="img/facebook.svg" alt="facebook"></a>
-            <a class="icons-instagram" href="https://www.instagram.com/"> <img src="img/instagram.svg" alt="instagram"></a>
-            <a class="icons" href="https://www.pinterest.ru/"> <img src="img/pinterest.svg" alt="pinterest"></a>
-            <a class="icons" href="https://twitter.com/home"> <img src="img/twitter.svg" alt="twitter"></a>
+            <a class="icons" href="https://www.facebook.com/" target="_blank"> <img class="icons-f" src="img/facebook.svg" alt="facebook"></a>
+            <a class="icons" href="https://www.instagram.com/" target="_blank"> <img class="icons-f" src="img/instagram.svg" alt="instagram"></a>
+            <a class="icons" href="https://www.pinterest.ru/" target="_blank"> <img class="icons-f" src="img/pinterest.svg" alt="pinterest"></a>
+            <a class="icons" href="https://twitter.com/home" target="_blank"> <img class="icons-f" src="img/twitter.svg" alt="twitter"></a>
         </nav>
     </div>
 </footer>

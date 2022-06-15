@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Title</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,7 +19,7 @@
                         <a href="index.html"><img src="img/main.svg" alt="main"></a>
                     </nav>
                     <nav class="search_img">
-                        <a href="catalog.html"><img src="img/search.svg" alt="search"></a>
+                        <a href="#"><img src="img/search.svg" alt="search"></a>
                     </nav>
                 </div>
                 <nav class="right_menu">
@@ -47,10 +48,10 @@
                                 <a class="sub-link" href="#">Bags</a>
                             </div>
                         </li>
-                        <li class="menu-link">
+                        <li class="menu-link1">
                             <a href="registration.html"><img src="img/account.svg" alt="account"></a>
                         </li>
-                        <li class="menu-link">
+                        <li class="menu-link2">
                             <a href="cart.html"><img src="img/basket.svg" alt="basket"></a>
                         </li>
                     </ul>
@@ -77,12 +78,12 @@
     <div class="product-img">
         <a class="block-carousel" href="#">
             <img class="left-carousel" src="img/left.svg" alt="left">
-            <img src="img/product-main.svg" alt="product-main">
+            <img class="carousel-image" src="img/product-main.svg" alt="product-main">
             <img class="right-carousel" src="img/right.svg" alt="right">
         </a>
     </div>
 </div>
-<div class="product-card container">
+<section class="product-card container">
     <div class="name-collection">
         <h5 class="name">WOMEN COLLECTION </h5>
         <hr class="hr-line">
@@ -91,7 +92,7 @@
         <p class="price-product">$561</p>
         <hr class="hr-lines">
     </div>
-    <div class="product-menu">
+    <form class="product-menu">
         <div class="dropdown">
             <input type="checkbox" id="menu">
             <div class="-hover">
@@ -138,16 +139,14 @@
                 <a class="link-list" href="#">6</a>
             </div>
         </div>
-
-    </div>
-    <div class="add-page-product">
+       <div class="add-page-product">
         <a class="add-product" href="#">
             <img src="img/basketPRODUCTpage.svg" alt="basket">
             <p class="add-text"> Add to Cart </p>
         </a>
     </div>
-
-</div>
+    </form>
+</section>
 <section class="catalog-product container">
     <div class="item-flex">
         <div class="item">
@@ -192,16 +191,16 @@
 <footer class="main-footer">
     <div class="wrapper bg-section">
         <div class="footer container">
-            <div class="left-footer">
+            <figure class="left-footer">
                 <img src="img/footer-women.svg" alt="footer">
                 <p class="feedback">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum“</p>
-            </div>
+            </figure>
             <div class="right-footer">
                 <h3 class="head-footer">SUBSCRIBE</h3>
                 <h3 class="text-footer"> FOR OUR NEWLETTER AND PROMOTION </h3>
                 <form class="form-group">
                     <label>
-                        <input class="border-footer" type="email" placeholder="   Enter Your Email">
+                        <input class="border-footer" type="email" maxlength="35" placeholder="   Enter Your Email">
                     </label>
                     <button class="submit" type="submit">Subscribe</button>
                 </form>
@@ -212,10 +211,10 @@
     <div class="wrapper-footer">
         <p class="year">© 2021 Brand All Rights Reserved.</p>
         <nav class="social">
-            <a class="icons" href="https://www.facebook.com/"> <img src="img/facebook.svg" alt="facebook"></a>
-            <a class="icons-instagram" href="https://www.instagram.com/"> <img src="img/instagram.svg" alt="instagram"></a>
-            <a class="icons" href="https://www.pinterest.ru/"> <img src="img/pinterest.svg" alt="pinterest"></a>
-            <a class="icons" href="https://twitter.com/home"> <img src="img/twitter.svg" alt="twitter"></a>
+            <a class="icons" href="https://www.facebook.com/" target="_blank"> <img class="icons-f" src="img/facebook.svg" alt="facebook"></a>
+            <a class="icons" href="https://www.instagram.com/" target="_blank"> <img class="icons-f" src="img/instagram.svg" alt="instagram"></a>
+            <a class="icons" href="https://www.pinterest.ru/" target="_blank"> <img class="icons-f" src="img/pinterest.svg" alt="pinterest"></a>
+            <a class="icons" href="https://twitter.com/home" target="_blank"> <img class="icons-f" src="img/twitter.svg" alt="twitter"></a>
         </nav>
     </div>
 </footer>
